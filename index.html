@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMOOTH HOUND</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="register.html" />
+    <link rel="stylesheet" href="login.html" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---------------------HEADER---------------------->
+    <header>
+      <img src="img/logo_icono.png" alt="logo" class="logo-icon" />
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="img/menu-orange.png" alt="menu" class="menu-icon" />
+        </label>
+
+        <input type="checkbox" id="menu-toggle" />
+
+        <ul class="navbar-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#About-us">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#Ctc-us">Contacto</a></li>
+          <li><a href="login.html" target="_self">Ingresar</a></li>
+        </ul>
+
+        <!-----------------CARRITO-------------------->
+        <label for="cart-toggle">
+          <img src="img/cart-orange.png" alt="carrito" class="icono-cart" />
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <div class="cart">
+          <h2>Mimos a tu 🐶</h2>
+          <span class="divider"></span>
+          <div class="cart-item">
+            <img
+              src="img/foto carrito/baño pelo largo.jpg"
+              alt="serv del carrito"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Baño para pelos largos</h3>
+              <p class="item-bid">+ grooming</p>
+              <span class="item-price">$ 8250</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down"> - </span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up"> + </span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="img/foto carrito/baño pelo corto.jpg"
+              alt="serv del carrito"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Baño para pelos cortos</h3>
+              <p class="item-bid">+ grooming</p>
+              <span class="item-price">$ 6500</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down"> - </span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up"> + </span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="img/foto carrito/rec. de pelo.jpg"
+              alt="serv del carrito"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Recuperación de pelo</h3>
+              <p class="item-bid">+ grooming</p>
+              <span class="item-price">$ 5000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down"> - </span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up"> + </span>
+            </div>
+          </div>
+
+          <span class="divider"></span>
+          <div class="cart-total">
+            <p>Total:</p>
+            <span>$ 8250</span>
+            <button class="btn-add">Comprar</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-------------------PRIMERA SECCION HERO------------>
+    <main class="main">
+      <section id="hero" class="section-hero">
+        <div class="hero-info">
+          <h1>SMOOTH HOUND</h1>
+          <p>
+            ¡Muy peludos y muy elegantes! Llega un nuevo concepto de grooming y
+            estética canina premium a la ciudad. En
+            <span>SMOOTH HOUND</span> brindamos asesoría de imagen canina
+            profesional para que tu mascota sea vea espectacular y elegante en
+            todo momento.
+          </p>
+          <a href="register.html" target="_self">🐩 Hacé tu Reserva 🛁</a>
+        </div>
+        <div class="hero-logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+      </section>
+      <!---------------------SEGUNDA SECCION NOSOTROS ------------------->
+      <section class="about-container" id="About-us">
+        <div class="about">
+          <h2>
+            Fundada en 2021, <span>SMOOTH HOUND</span> es una Peluquería Canina
+            que nace desde el amor por los perritos.
+          </h2>
+          <p>
+            Estamos aquí para ayudarte a retribuirle a tu perrito el amor
+            incondicional que te brinda, a través de un servicio de peluquería
+            canina premium y profesional, en un espacio único en la ciudad para
+            que puedas tener la tranquilidad en el trato que se les da, ver cómo
+            es el proceso y hasta tomar muchas fotos y videos para tus redes
+            sociales.
+          </p>
+        </div>
+
+        <div>
+          <img class="img-1" src="img/welcome.png" alt="welcome" />
+
+          <img class="img-2" src="img/negocio.jpg" alt="Negocio" />
+        </div>
+      </section>
+
+      <section class="about-container">
+        <div>
+          <img class="img-3" src="img/perro 2.png" alt="dog" />
+
+          <img class="img-4" src="img/negocio 2.jpg" alt="peluqueria" />
+        </div>
+
+        <div class="about">
+          <h2>¡Somos profesionales!</h2>
+
+          <p>
+            Contamos con un excelente equipo de trabajo de profesionales en
+            grooming canino, alistamiento y aseo. Un equipo que transpira amor
+            por los perritos y que día a día hace su trabajo con mucho
+            compromiso, entendiendo la importancia de cada uno de los perritos
+            para los dueños y sus familias.
+          </p>
+        </div>
+      </section>
+      <!----------------------TERCERA SECCION SERVICIOS--------------------->
+      <section class="section" id="services">
+        <div class="section-services">
+          <h2 class="title-services">
+            Consentimos a tu mascota en cada uno de estos pasos:
+          </h2>
+          <p>
+            En <span>SMOOTH HOUND</span>, el servicio no es convencional.
+            Tendrás una experiencia diseñada para que tu peludo la pase de
+            maravilla y se relaje del arduo trabajo de darte amor incondicional.
+          </p>
+          <video class="video" width="650" height="340" controls autoplay muted>
+            <source src="video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="services-cards-container">
+          <div class="services-card">
+            <div class="services-card-img"></div>
+            <div class="services-content">
+              <h3>Agenda en WhatsApp y Check-In</h3>
+              <p class="section-p-small">
+                Programá tu visita vía WhatsApp y al llegar haremos un rápido
+                chequeo en el que nos aseguramos de que no haya nada fuera de lo
+                normal con tu peludo.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img"></div>
+            <div class="services-content">
+              <h3>Detalles iniciales</h3>
+              <p class="section-p-small">
+                El servicio de cada perro se personaliza según sus necesidades,
+                lo que puede incluir un deslanado completo o un corte tipo
+                stripping para perritos de pelo duro o alambre.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img"></div>
+            <div class="services-content">
+              <h3>Hora del baño</h3>
+              <p class="section-p-small">
+                ¡Al agua patas! Un delicioso masaje relajante con shampoo, y la
+                cosmética canina más top del mercado acorde con en tipo de manto
+                de tu perro para eliminar la suciedad, el aceite o residuos,
+                dejándolos sedosos y limpios.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img"></div>
+            <div class="services-content">
+              <h3>Secado</h3>
+              <p class="section-p-small">
+                Secar a los peludos no es igual para todos. Utilizamos una
+                variedad de métodos, desde el secado con toalla y soplador
+                profesional, hasta los secadores de mano convencionales.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img"></div>
+            <div class="services-content">
+              <h3>Corte especializado</h3>
+              <p class="section-p-small">
+                Aquí es donde ocurre la verdadera transformación. Nuestros
+                estilistas hacen su magia para crear cortes adecuados para cada
+                raza, con técnicas como el corte a tijera, corte comercial y
+                arreglos especiales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------------CUARTA SECCION--------------------->
+
+      <section class="aula-1-info-">
+        <div class="text-info">
+          <h2>Perritos radiantes, peludos elegantes</h2>
+          <p>
+            Queremos que se note todo el amor que le tienes a tu compañero de
+            cuatro patas, por eso, sabemos brindarle lo que se merece. Sacamos
+            lo mejor que hay en ellos a través de sesiones de hermosura y
+            elegancia con alta calidad y con mucho amor.
+          </p>
+        </div>
+        <div>
+          <h2>Conoce todos nuestros servicios especializados:</h2>
+        </div>
+        <div class="aula-2-info-cards-container">
+          <div class="aula-3-info-card">
+            <h3>Baño + grooming para pelos largos</h3>
+            <ul class="aula-4">
+              <li>3 baños con agua tibia</li>
+              <li>Baño con shampoo de limpieza profunda</li>
+              <li>Baño con shampoo hidratante</li>
+              <li>Baño con mascarillas y/o acondicionador</li>
+              <li>Secado y/o cepillado profesional</li>
+              <li>Corte estandar de acuerdo a la raza</li>
+              <li>Deslanado (si lo requiere)</li>
+              <li>Corte y/o limado de uñas</li>
+              <li>Accesorio elegante</li>
+              <li>Perfume y mimos ilimitados</li>
+            </ul>
+            <img src="img/cart.png" alt="carrito" />
+          </div>
+
+          <div class="aula-3-info-card">
+            <h3>Baño + grooming para pelos cortos</h3>
+            <ul classlass="aula-4">
+              <li>2 baños con agua tibia</li>
+              <li>Baño con shampoo de limpieza profunda</li>
+              <li>
+                Baño con shampoo hidratante y de acuerdo a las necesidades de su
+                pelo
+              </li>
+              <li>Baño con acondicionador</li>
+              <li>Deslanado</li>
+              <li>Secado de pelo rápido</li>
+              <li>Corte y/o limado de uñas</li>
+              <li>Accesorio elegante</li>
+              <li>Perfume y mimos ilimitados</li>
+            </ul>
+            <img src="img/cart.png" alt="carrito" />
+          </div>
+
+          <div class="aula-3-info-card">
+            <h3>Recuperación de pelo</h3>
+            <ul>
+              <li>3 ó 2 baños con agua tibia</li>
+              <li>Baño con shampoo de limpieza profunda</li>
+              <li>Baño con shampoo hidratante</li>
+              <li>Uso de acondicionador</li>
+              <li>Secado y/o cepillado profesional</li>
+              <li>Corte estandar de acuerdo a la raza</li>
+              <li>Deslanado (si lo requiere)</li>
+              <li>Brillo con aceite de lino</li>
+              <li>Spray fijador de coco</li>
+              <li>Corte y/o limado de uñas</li>
+              <li>Accesorio elegante</li>
+              <li>Perfume y mimos ilimitados</li>
+            </ul>
+            <img src="img/cart.png" alt="carrito" />
+          </div>
+        </div>
+      </section>
+      <!----------------------------CONTACTO------------>
+      <section id="Ctc-us">
+        <h2>CONTACTO</h2>
+        <div class="Contact">
+          <ul>
+            <li>📍 Av. Rafael Nuñez 5290</li>
+            <li>📩 smooth_hound@gmail.com</li>
+            <li>☎️ 3512268978</li>
+          </ul>
+          <div>
+            <iframe
+              class="ubi"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.7866942052669!2d-64.24464952464095!3d-31.354928648998204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eb34436b307%3A0x6a1f3088ccd44c70!2zQXYuIFJhZmFlbCBOw7rDsWV6IDUyOTAsIFg1MDAwIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1692052004244!5m2!1ses-419!2sar"
+              width="300"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!----------------FOOTER------------------->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-links">
+            <h4>Smooth Hound</h4>
+            <ul>
+              <li><a href="#About-us">Nosotros</a></li>
+              <li><a href="#">Trabajá en Smooth Hound</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Ayuda</h4>
+            <ul>
+              <li><a href="#">No puedo agendar una cita</a></li>
+              <li><a href="#">No puedo registrarme</a></li>
+              <li><a href="#">Olvide mi contraseña</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#">Baño para 🐕 Pelo Largo</a></li>
+              <li><a href="#">Baño para 🐕 Pelo Corto</a></li>
+              <li><a href="#">Recuperación de pelo 🐩</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Siguenos</h4>
+
+            <div class="social-link">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
